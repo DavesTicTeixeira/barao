@@ -1,0 +1,58 @@
+.call-button-container {
+  display: flex;
+  position: relative;
+}
+.call-button-link {
+  color: var(--dl-color-gray-black);
+  display: flex;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-primary-100);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-doubleunit);
+  border-radius: 50px;
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.call-button-root-class-name {
+  display: none;
+}
+
+
+
+@media(max-width: 479px) {
+  .call-button-link {
+    width: 124px;
+    align-self: flex-start;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+  }
+  .call-button-text {
+    font-size: 16px;
+    align-self: flex-end;
+    font-style: normal;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-left: 0px;
+  }
+  .call-button-root-class-name {
+    display: flex;
+    position: 0px;
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .call-button-root-class-name1 {
+    position: 0px;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .call-button-root-class-name2 {
+    position: 0px;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .call-button-root-class-name3 {
+    position: 0px;
+    margin-right: var(--dl-space-space-unit);
+  }
+}
